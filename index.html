@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 11 | Bootstrap Flexbox </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="hero bg-secondary d-flex">
+        <div class="align-self-sm-center align-self-end ms-5 mb-3">
+            <h1 class="text-light">Online Library</h1>
+            <div>
+                Details
+            </div>
+            <button class="btn btn-primary mt-2">
+                Click here
+            </button>
+        </div>
+    </div>
+<!-- 
+    <div class="box-container d-sm-inline-flex">
+        Box 1
+    </div> -->
+
+    <div class="div-1 d-flex flex-sm-row flex-column">
+        <div class="text-light p-3 me-auto">
+            Brand  
+        </div>
+        <div class="text-light p-3">
+            Home
+        </div>
+        <div class="text-light p-3 ms-auto">
+            Login
+        </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row">
+        <div class="bg-primary flex-fill order-2 order-sm-1 p-3">
+            <span class="h4">Checkout Form</span>
+
+            <form>
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control form-control-sm" placeholder="ex. Juan Dela Cruz" id="name">
+                <label for="address" class="form-label mt-2">Address</label>
+                <input type="text" class="form-control form-control-sm" placeholder="ex. Juan Dela Cruz" id="address">
+
+                <label for="city" class="col-form-label">City</label>
+                <input type="text" class="form-control form-control-sm" placeholder="ex. Manila" id="city">
+
+                <div class="row mt-2">
+                    <label for="region" class="col-form-label col-sm-2">Region</label>
+                    <div>
+                        <input type="text" class="form-label" placeholder="ex. NCR">
+                    </div>
+                </div>
+
+                <div class="row my-2">
+                    <label for="region" class="col-form-label col-sm-2">Select</label>
+                    <div class="col-sm-10">
+                        <select class="form-select">
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                            <option value="">Option 3</option>
+                            <option value="">Option 4</option>
+                        </select>
+                    </div>
+                </div>
+
+                
+
+            </form>
+
+        </div>
+        <div class="bg-secondary flex-fill order-1 order-sm-3 p-3">
+            <span class="h4">Order Summary</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
